@@ -34,10 +34,10 @@ label {
     color: #202124; 
 }
 
-input[type="text"],
-input[type="email"],
-textarea,
-select {
+.input-text,
+.input-email,
+.textarea,
+.select {
     width: 100%;
     padding: 10px;
     border: 1px solid #dadce0; 
@@ -47,15 +47,12 @@ select {
     margin-top: 5px;
 }
 
-form div label[for="sexo_masculino"],
-form div label[for="sexo_feminino"] {
-    display: inline-block;
+.input-radio {
     margin-right: 10px;
-    font-weight: normal;
 }
 
-form div label[for="termos"] {
-    font-weight: normal;
+.input-checkbox {
+    margin-right: 5px;
 }
 
 textarea {
@@ -63,7 +60,7 @@ textarea {
     height: 80px;
 }
 
-input[type="submit"] {
+.input-submit {
     width: 100%;
     padding: 10px;
     background-color: #1a73e8; 
@@ -75,7 +72,7 @@ input[type="submit"] {
     transition: background-color 0.3s;
 }
 
-input[type="submit"]:hover {
+.input-submit:hover {
     background-color: #1558b0; 
 }
 
@@ -98,7 +95,7 @@ span:hover {
         font-size: 14px;
     }
 
-    input[type="submit"] {
+    .input-submit {
         font-size: 14px;
     }
 }
